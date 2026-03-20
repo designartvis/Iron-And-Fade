@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IRON & FADE Barbershop — Traditional craft. Modern precision. Somerset roots. Located at 112 W Main St, Somerset, PA 15501." />
+  <meta name="keywords" content="barbershop, Somerset PA, haircut, fade, shave, traditional barber, men's grooming" />
+  <meta property="og:title" content="IRON & FADE — Barbershop — Somerset, PA" />
+  <meta property="og:description" content="Traditional craft. Modern precision. Somerset roots." />
+  <meta property="og:type" content="website" />
+  <title>IRON &amp; FADE — Barbershop — Somerset, PA</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════ -->
+  <nav id="nav" aria-label="Main navigation">
+    <a href="#hero" aria-label="IRON & FADE — Back to top">
+      <img src="assets/logo.png" alt="IRON & FADE Logo" class="nav-logo" />
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#about" id="nav-about">The Shop</a></li>
+      <li><a href="#services" id="nav-services">The Ledger</a></li>
+      <li><a href="#team" id="nav-team">The Craftsmen</a></li>
+      <li><a href="#gallery" id="nav-gallery">The Showcase</a></li>
+      <li><a href="#location" id="nav-location">Find Us</a></li>
+      <li><a href="#booking" id="nav-book" class="nav-book-btn">Book Now</a></li>
+    </ul>
+
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-drawer" id="nav-drawer" role="dialog" aria-label="Mobile navigation">
+    <a href="#about" class="drawer-link">The Shop</a>
+    <a href="#services" class="drawer-link">The Ledger</a>
+    <a href="#team" class="drawer-link">The Craftsmen</a>
+    <a href="#gallery" class="drawer-link">The Showcase</a>
+    <a href="#location" class="drawer-link">Find Us</a>
+    <a href="#booking" class="drawer-link" style="color: var(--orange);">Book Now</a>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════
+         HERO
+    ════════════════════════════════════════════════════ -->
+    <section id="hero" aria-label="Hero">
+      <div class="hero-bg" id="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="stamp-label hero-tagline reveal">Somerset, Pennsylvania · Est. Since the First Cut</p>
+        <h1 class="display-xl hero-heading reveal reveal-delay-1">
+          Iron &amp; <em>Fade</em>
+        </h1>
+        <div class="hero-rule reveal reveal-delay-2"></div>
+        <p class="hero-sub reveal reveal-delay-2">Traditional craft. Modern precision.<br />No gimmicks. Just honest barbering.</p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#booking" class="btn-primary" id="hero-cta-book">Book a Chair</a>
+          <a href="#services" class="btn-ghost" id="hero-cta-ledger">See The Ledger</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+         TRUST BAR
+    ════════════════════════════════════════════════════ -->
+    <div id="trust-bar" aria-label="Trust indicators">
+      <div class="trust-item">
+        <img src="assets/icon_razor.png" alt="" aria-hidden="true" />
+        <span>Straight Razor Shaves</span>
+      </div>
+      <div class="trust-sep" aria-hidden="true"></div>
+      <div class="trust-item">
+        <img src="assets/icon_scissors.png" alt="" aria-hidden="true" />
+        <span>Precision Fades</span>
+      </div>
+      <div class="trust-sep" aria-hidden="true"></div>
+      <div class="trust-item">
+        <img src="assets/icon_comb.png" alt="" aria-hidden="true" />
+        <span>Beard Sculpture</span>
+      </div>
+      <div class="trust-sep" aria-hidden="true"></div>
+      <div class="trust-item">
+        <img src="assets/icon_towel.png" alt="" aria-hidden="true" />
+        <span>Hot Towel Finish</span>
+      </div>
+      <div class="trust-sep" aria-hidden="true"></div>
+      <div class="trust-item">
+        <img src="assets/icon_calendar.png" alt="" aria-hidden="true" />
+        <span>Walk-Ins Welcome</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         ABOUT / THE SHOP
+    ════════════════════════════════════════════════════ -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="about-media reveal">
+        <img src="assets/interior_chair.png" alt="Vintage leather barber chair with tools" class="about-img-main" />
+        <div class="about-stamp">Est. Somerset, PA</div>
+        <img src="assets/interior_shelf.png" alt="Wooden shelf with vintage pomade jars" class="about-img-accent" />
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow reveal">The Shop</p>
+        <h2 id="about-heading" class="reveal reveal-delay-1">
+          Where Iron<br />Meets <em>Craft</em>
+        </h2>
+        <p class="reveal reveal-delay-2">
+          IRON & FADE lives in the historic Old Iron Works building at 112 W Main St — a structure that has stood since the 1920s. Original brick, exposed timber beams, and antique cast-iron fixtures. The atmosphere doesn't pretend to be anything it isn't.
+        </p>
+        <p class="reveal reveal-delay-2">
+          We built this shop for the working man who values his time and respects a trade done right. You'll smell sandalwood and bay rum, hear delta blues on the record player, and leave looking like your best self. Cell phones go away when you sit down.
+        </p>
+        <div class="about-stats reveal reveal-delay-3">
+          <div class="stat-item">
+            <span class="stat-num">25+</span>
+            <span class="stat-label">Years of Craft</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Master Barbers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Signature Services</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════
+         SERVICES / THE LEDGER
+    ════════════════════════════════════════════════════ -->
+    <section id="services" aria-labelledby="services-heading">
+      <div class="services-bg-text" aria-hidden="true">The Ledger</div>
+      <div class="services-inner">
+        <div class="services-header">
+          <p class="section-eyebrow reveal">The Ledger</p>
+          <h2 id="services-heading" class="reveal reveal-delay-1">Rugged Prices.<br />Honest Work.</h2>
+          <p class="reveal reveal-delay-2">All services include a hot towel finish and a cold glass-bottled soda.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- The Somerset Standard -->
+          <article class="service-card reveal" data-number="01" aria-label="The Somerset Standard service">
+            <img src="assets/icon_scissors.png" alt="" class="service-icon" aria-hidden="true" />
+            <h3 class="service-name">The Somerset Standard</h3>
+            <p class="service-price">$30</p>
+            <p class="service-desc">Traditional shear and clipper cut. Finished with a hot towel and the house bay rum. Walk in a man, walk out a sharper one.</p>
+          </article>
+
+          <!-- The Slate Fade -->
+          <article class="service-card reveal reveal-delay-1" data-number="02" aria-label="The Slate Fade service">
+            <img src="assets/icon_comb.png" alt="" class="service-icon" aria-hidden="true" />
+            <h3 class="service-name">The Slate Fade</h3>
+            <p class="service-price">$35</p>
+            <p class="service-desc">Precision skin fade with a razor-sharp lineup. Leo Russo treats every transition like a work of architecture — tight, clean, exact.</p>
+          </article>
+
+          <!-- The Iron Razor Shave -->
+          <article class="service-card reveal reveal-delay-2" data-number="03" aria-label="The Iron Razor Shave service">
+            <img src="assets/icon_razor.png" alt="" class="service-icon" aria-hidden="true" />
+            <h3 class="service-name">The Iron Razor Shave</h3>
+            <p class="service-price">$40</p>
+            <p class="service-desc">Full multi-step straight razor shave — pre-shave essential oils, hot lather, steam, and afterbalm. The way it was always meant to be done.</p>
+          </article>
+
+          <!-- The Forge — Featured -->
+          <article class="service-card featured reveal reveal-delay-1" data-number="04" aria-label="The Forge full service">
+            <span class="featured-tag">Signature Service</span>
+            <img src="assets/icon_towel.png" alt="" class="service-icon" aria-hidden="true" />
+            <h3 class="service-name">The Forge</h3>
+            <p class="service-price">$65</p>
+            <p class="service-desc">The ultimate restoration. The Somerset Standard cut combined with The Iron Razor Shave. Leave feeling like a new man. The complete experience.</p>
+          </article>
+
+          <!-- Beard Sculpture -->
+          <article class="service-card reveal reveal-delay-2" data-number="05" aria-label="Beard Sculpture service">
+            <img src="assets/icon_comb.png" alt="" class="service-icon" aria-hidden="true" />
+            <h3 class="service-name">Beard Sculpture</h3>
+            <p class="service-price">$20</p>
+            <p class="service-desc">Julian Blackwood carves each beard into its best possible shape. Shaping, clean lining, sharp neckline, and deep conditioning oil.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- ═══════════════════════════════════════════════════
+         TEAM / THE CRAFTSMEN
+    ════════════════════════════════════════════════════ -->
+    <section id="team" aria-labelledby="team-heading">
+      <div class="team-header">
+        <p class="section-eyebrow reveal">The Craftsmen</p>
+        <h2 id="team-heading" class="reveal reveal-delay-1">Men Behind<br />The Chair</h2>
+      </div>
+      <div class="team-grid">
+
+        <!-- Silas Vance -->
+        <article class="team-card reveal" aria-label="Silas Vance, Master Barber and Owner">
+          <img src="assets/result_classic_taper.png" alt="Man with classic taper haircut representing Silas Vance's specialty" class="team-card-img" />
+          <div class="team-card-overlay">
+            <p class="team-nickname">"The Hammer"</p>
+            <h3 class="team-name">Silas Vance</h3>
+            <p class="team-role">Master Barber / Owner · 25 Years in the Trade</p>
+          </div>
+          <div class="team-specialty">Classic Taper & Razor Shaves</div>
+        </article>
+
+        <!-- Leo Russo -->
+        <article class="team-card reveal reveal-delay-1" aria-label="Leo Russo, Lead Fade Specialist">
+          <img src="assets/result_skin_fade.png" alt="Man with high skin fade representing Leo Russo's specialty" class="team-card-img" />
+          <div class="team-card-overlay">
+            <p class="team-nickname">"The Line"</p>
+            <h3 class="team-name">Leo Russo</h3>
+            <p class="team-role">Lead Fade Specialist · Skin Fades & Lineups</p>
+          </div>
+          <div class="team-specialty">High Skin Fades</div>
+        </article>
+
+        <!-- Julian Blackwood -->
+        <article class="team-card reveal reveal-delay-2" aria-label="Julian Blackwood, Beard and Texture Specialist">
+          <img src="assets/result_beard_closeup.png" alt="Close-up of well-groomed beard representing Julian Blackwood's specialty" class="team-card-img" />
+          <div class="team-card-overlay">
+            <p class="team-nickname">"The Sculptor"</p>
+            <h3 class="team-name">Julian Blackwood</h3>
+            <p class="team-role">Beard & Texture Specialist · The Artist</p>
+          </div>
+          <div class="team-specialty">Beard Grooming</div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+         GALLERY / THE SHOWCASE
+    ════════════════════════════════════════════════════ -->
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <div class="gallery-inner">
+        <div class="gallery-header">
+          <div class="gallery-header-left">
+            <p class="section-eyebrow reveal">The Showcase</p>
+            <h2 id="gallery-heading" class="reveal reveal-delay-1">The Work<br />Speaks.</h2>
+          </div>
+          <a href="#booking" class="btn-primary reveal reveal-delay-2" id="gallery-cta-book">Book Your Cut</a>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" aria-label="Full barbershop interior">
+            <img src="assets/interior_full.png" alt="Full IRON & FADE barbershop interior with vintage leather chairs and boxing posters" />
+            <div class="gallery-caption"><span>The Floor — Somerset, PA</span></div>
+          </div>
+          <div class="gallery-item reveal reveal-delay-1" aria-label="Classic taper and side part haircut result">
+            <img src="assets/result_classic_taper.png" alt="Man with classic taper haircut and clean side part" />
+            <div class="gallery-caption"><span>The Somerset Standard</span></div>
+          </div>
+          <div class="gallery-item reveal reveal-delay-2" aria-label="High skin fade with full beard result">
+            <img src="assets/result_skin_fade.png" alt="Man with high skin fade and shaped full beard" />
+            <div class="gallery-caption"><span>The Slate Fade</span></div>
+          </div>
+          <div class="gallery-item reveal reveal-delay-3" aria-label="Beard grooming close-up">
+            <img src="assets/result_beard_closeup.png" alt="Close-up of a well-groomed beard with sharp edges" />
+            <div class="gallery-caption"><span>Beard Sculpture</span></div>
+          </div>
+          <div class="gallery-item reveal reveal-delay-1" aria-label="Full service: fresh cut and groomed beard">
+            <img src="assets/result_full_service.png" alt="Man after full barbershop service — fresh cut, groomed beard, relaxed expression" />
+            <div class="gallery-caption"><span>The Forge — Full Service</span></div>
+          </div>
+          <div class="gallery-item reveal reveal-delay-2" aria-label="Barber shelf with pomades and tools">
+            <img src="assets/interior_shelf.png" alt="Wooden shelf with vintage pomade jars and leather strop" />
+            <div class="gallery-caption"><span>The Arsenal</span></div>
+          </div>
+          <div class="gallery-item reveal reveal-delay-3" aria-label="Barber chair with laid-out tools">
+            <img src="assets/interior_chair.png" alt="Vintage barber chair with scissors, razor, and comb on wooden surface" />
+            <div class="gallery-caption"><span>Tools of the Trade</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+         BOOKING CTA
+    ════════════════════════════════════════════════════ -->
+    <section id="booking" aria-labelledby="booking-heading">
+      <div class="booking-bg" aria-hidden="true"></div>
+      <div class="booking-content">
+        <p class="section-eyebrow reveal">Ready?</p>
+        <h2 id="booking-heading" class="reveal reveal-delay-1">
+          Take a <em>Seat.</em>
+        </h2>
+        <p class="reveal reveal-delay-2">
+          Walk-ins always welcome. Call ahead for preferred times, or book your chair online. We'll be here.
+        </p>
+        <div class="booking-actions reveal reveal-delay-3">
+          <a href="tel:+18145550178" class="btn-primary" id="booking-call">Call (814) 555-0178</a>
+          <a href="#location" class="btn-ghost" id="booking-find">Find the Shop</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+         LOCATION / FIND US
+    ════════════════════════════════════════════════════ -->
+    <section id="location" aria-labelledby="location-heading">
+      <div class="location-inner">
+        <div class="location-text">
+          <p class="section-eyebrow reveal">Find Us</p>
+          <h2 id="location-heading" class="reveal reveal-delay-1">112 W Main St<br />Somerset, PA</h2>
+
+          <div class="location-detail reveal reveal-delay-2">
+            <img src="assets/icon_razor.png" alt="" class="location-detail-icon" aria-hidden="true" />
+            <div class="location-detail-text">
+              <p class="location-detail-label">Address</p>
+              <p class="location-detail-value">
+                112 W Main St<br />
+                Somerset, PA 15501<br />
+                <em style="font-style:normal; opacity:0.7;">Historic Old Iron Works Building</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="location-detail reveal reveal-delay-2">
+            <img src="assets/icon_calendar.png" alt="" class="location-detail-icon" aria-hidden="true" />
+            <div class="location-detail-text">
+              <p class="location-detail-label">Hours</p>
+              <div class="hours-grid">
+                <span class="hours-day">Mon</span><span class="hours-time closed">Closed</span>
+                <span class="hours-day">Tue – Fri</span><span class="hours-time">9:00 AM – 7:00 PM</span>
+                <span class="hours-day">Saturday</span><span class="hours-time">8:00 AM – 5:00 PM</span>
+                <span class="hours-day">Sunday</span><span class="hours-time closed">Closed</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-detail reveal reveal-delay-3">
+            <img src="assets/icon_comb.png" alt="" class="location-detail-icon" aria-hidden="true" />
+            <div class="location-detail-text">
+              <p class="location-detail-label">Phone</p>
+              <p class="location-detail-value"><a href="tel:+18145550178" style="color:inherit;">(814) 555-0178</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-map reveal reveal-delay-2">
+          <div class="map-placeholder">
+            <img src="assets/icon_razor.png" alt="" aria-hidden="true" />
+            <h3>Iron &amp; Fade</h3>
+            <p>112 W Main St · Somerset, PA</p>
+            <br />
+            <a href="https://maps.google.com/?q=112+W+Main+St+Somerset+PA+15501"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-primary"
+               id="location-map-link"
+               style="font-size:0.8rem; padding:12px 28px; display:inline-block; margin-top:12px;">
+              Open in Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════ -->
+  <footer id="footer" aria-label="Site footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="IRON & FADE" />
+          <p>Traditional craft. Modern precision. Somerset roots. No gimmicks, just honest barbering since this town had a hardware store on every corner.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about" id="footer-nav-about">The Shop</a></li>
+            <li><a href="#services" id="footer-nav-services">The Ledger</a></li>
+            <li><a href="#team" id="footer-nav-team">The Craftsmen</a></li>
+            <li><a href="#gallery" id="footer-nav-gallery">The Showcase</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services" id="footer-svc-standard">The Somerset Standard</a></li>
+            <li><a href="#services" id="footer-svc-fade">The Slate Fade</a></li>
+            <li><a href="#services" id="footer-svc-shave">The Iron Razor Shave</a></li>
+            <li><a href="#services" id="footer-svc-forge">The Forge</a></li>
+            <li><a href="#services" id="footer-svc-beard">Beard Sculpture</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="tel:+18145550178" id="footer-phone">(814) 555-0178</a></li>
+            <li><a href="https://maps.google.com/?q=112+W+Main+St+Somerset+PA" target="_blank" rel="noopener noreferrer" id="footer-address">112 W Main St, Somerset PA</a></li>
+            <li><a href="#booking" id="footer-book">Book an Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2024 Iron &amp; Fade Barbershop. All rights reserved.</p>
+        <p class="footer-tagline">Traditional Craft · Modern Precision</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
